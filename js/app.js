@@ -27,7 +27,7 @@ let db=load(), calDate=new Date(now), calView='month', calSearch='',calCategory=
 function save(){try{localStorage.setItem(KEY,JSON.stringify(db));updateCounts();return true}catch(e){console.error('Could not save workspace to LocalStorage',e);showToast('บันทึกไม่สำเร็จ — พื้นที่ Browser อาจเต็มหรือถูกปิด');return false}}
 function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function dateObj(s){return s?new Date(s+'T00:00:00'):null}
-function fmtDate(sopts){const d=dateObj(s);return d?new Intl.DateTimeFormat('th-TH',sopts||{day:'numeric',month:'short'}).format(d):'ไม่กำหนดวัน'}
+function fmtDate(s,sopts){const d=dateObj(s);return d?new Intl.DateTimeFormat('th-TH',sopts||{day:'numeric',month:'short'}).format(d):'ไม่กำหนดวัน'}
 function todayLong(){return new Intl.DateTimeFormat('th-TH',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(now)}
 function catTag(cat){return `<span class="category-tag"><i class="category-dot" style="--tag:${CAT_COLORS[cat]||'#c6fa45'}"></i>${esc(cat||'UNCATEGORIZED')}</span>`}
 function statusPill(s){return `<span class="status-pill status-${(STATUS_CLASS[s]||'ideas')}">${esc(STATUS_LABEL[s]||s||'IDE')}</span>`}
