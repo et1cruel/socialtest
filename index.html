@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171815">
+  <meta name="description" content="GENNOISE / THAI UNDERGROUND — independent music media content planner">
+  <title>GENNOISE — Content Planner</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Gennoise home"><span class="brand-mark">G<span>✳</span></span><span class="brand-name">GENNOISE<small>THAI UNDERGROUND</small></span></a>
+      <div class="side-label">WORKSPACE / 2026</div>
+      <nav class="navigation" aria-label="Main navigation">
+        <button class="nav-item active" data-page="dashboard"><span class="nav-icon">▦</span> ภาพรวม <span class="nav-count" id="nav-upcoming">0</span></button>
+        <button class="nav-item" data-page="calendar"><span class="nav-icon">▣</span> ปฏิทินคอนเทนต์</button>
+        <button class="nav-item" data-page="pipeline"><span class="nav-icon">⇥</span> โปรดักชัน <span class="nav-count" id="nav-production">0</span></button>
+        <button class="nav-item" data-page="ideas"><span class="nav-icon">✳</span> คลังไอเดีย</button>
+        <div class="side-label nav-section-label">SCENE / CULTURE</div>
+        <button class="nav-item" data-page="artists"><span class="nav-icon">◉</span> ศิลปิน & เพลง</button>
+        <button class="nav-item" data-page="events"><span class="nav-icon">⌁</span> งานดนตรี</button>
+        <button class="nav-item" data-page="weekly"><span class="nav-icon">▤</span> แผนรายสัปดาห์</button>
+      </nav>
+      <div class="sidebar-bottom"><div class="storage-card"><span class="storage-dot"></span><div><strong>LOCAL WORKSPACE</strong><small>ข้อมูลอยู่ในอุปกรณ์นี้</small></div></div><button class="text-button" id="theme-toggle">◐ <span>สลับธีม</span></button></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="mobile-menu" aria-label="เปิดเมนู">☰</button><div class="breadcrumb">GENNOISE <span>/</span> <b id="breadcrumb-current">OVERVIEW</b></div><div class="topbar-actions"><span class="today-label" id="top-date"></span><button class="icon-button" id="export-btn" title="Export JSON" aria-label="Export data">↥</button><button class="icon-button" id="import-trigger" title="Import JSON" aria-label="Import data">↧</button><input id="import-file" type="file" accept="application/json,.json" hidden><button class="button button-dark top-add" id="quick-add">＋ <span>เพิ่มคอนเทนต์</span></button></div></header>
+      <div class="page-content">
+        <section class="page active" id="page-dashboard"></section>
+        <section class="page" id="page-calendar"></section>
+        <section class="page" id="page-pipeline"></section>
+        <section class="page" id="page-ideas"></section>
+        <section class="page" id="page-artists"></section>
+        <section class="page" id="page-events"></section>
+        <section class="page" id="page-weekly"></section>
+        <footer class="app-footer"><span>GENNOISE / THAI UNDERGROUND</span><span>INDEPENDENT BY DESIGN · PERSONAL WORKSPACE</span></footer>
+      </div>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

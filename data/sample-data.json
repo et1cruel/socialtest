@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "categories": ["MUSIC RELEASE", "ARTIST SPOTLIGHT", "UNDERGROUND NEWS", "EVENT ANNOUNCEMENT", "EVENT COVERAGE", "INTERVIEW", "MUSIC REVIEW", "PLAYLIST", "UNDERGROUND CULTURE", "VIDEO CONTENT", "COMMUNITY"],
+  "contents": [
+    {"id":"c1","title":"Underground Releases This Week","category":"MUSIC RELEASE","description":"รวบรวมผลงานใหม่จากศิลปินอิสระประจำสัปดาห์ (ข้อมูล DEMO)","platform":"Instagram","publishDate":"2026-11-07","publishTime":"18:30","deadline":"2026-11-07","artist":"DEMO — Various Artists","status":"READY","priority":"HIGH","reference":"","notes":"ข้อมูลตัวอย่าง DEMO ไม่ใช่ข่าวจริง"},
+    {"id":"c2","title":"Discover New Thai Underground Artists","category":"ARTIST SPOTLIGHT","description":"แนะนำศิลปินหน้าใหม่ในฉากเพลงนอกกระแส (DEMO)","platform":"Instagram","publishDate":"2026-11-08","publishTime":"19:00","deadline":"2026-11-07","artist":"DEMO — Fictional Artist","status":"PRODUCTION","priority":"HIGH","reference":"","notes":"ทำ artwork แนว poster"},
+    {"id":"c3","title":"20 Questions With Underground Artists","category":"INTERVIEW","description":"ชุดคำถามสัมภาษณ์ศิลปิน จำลองเพื่อสาธิตระบบ","platform":"YouTube","publishDate":"2026-11-10","publishTime":"20:00","deadline":"2026-11-08","artist":"DEMO — Fictional Artist","status":"PLANNING","priority":"MEDIUM","reference":"","notes":"ข้อมูลตัวอย่าง DEMO"},
+    {"id":"c4","title":"Upcoming Underground Music Events","category":"EVENT ANNOUNCEMENT","description":"ตัวอย่างโพสต์รวมงานดนตรี (ไม่มีงานจริง)","platform":"Instagram","publishDate":"2026-11-11","publishTime":"17:00","deadline":"2026-11-09","artist":"","status":"IDEAS","priority":"MEDIUM","reference":"","notes":"ตรวจสอบข้อมูลก่อนเผยแพร่"},
+    {"id":"c5","title":"Thai Underground Selection","category":"PLAYLIST","description":"คัดเลือกเพลงเพื่อทำ playlist แบบ demo","platform":"Spotify","publishDate":"2026-11-13","publishTime":"12:00","deadline":"2026-11-11","artist":"DEMO — Various Artists","status":"PLANNING","priority":"LOW","reference":"","notes":""},
+    {"id":"c6","title":"Experimental Rap Releases","category":"MUSIC REVIEW","description":"รีวิวผลงานทดลอง (ตัวอย่าง DEMO)","platform":"Website","publishDate":"2026-11-15","publishTime":"19:30","deadline":"2026-11-13","artist":"DEMO — Fictional Artist","status":"IDEAS","priority":"LOW","reference":"","notes":""},
+    {"id":"c7","title":"Underground Artist Visual Showcase","category":"VIDEO CONTENT","description":"แนวคิดวิดีโอ showcase ศิลปิน (ข้อมูลสมมติ DEMO)","platform":"TikTok","publishDate":"2026-11-17","publishTime":"20:00","deadline":"2026-11-14","artist":"DEMO — Fictional Artist","status":"PUBLISHED","priority":"MEDIUM","reference":"","notes":"ตัวอย่างเผยแพร่แล้ว"}
+  ],
+  "ideas": [
+    {"id":"i1","title":"ภาพถ่าย DIY ในพื้นที่ซ้อมดนตรี","category":"UNDERGROUND CULTURE","description":"เล่าเรื่องพื้นที่สร้างสรรค์และวัฒนธรรม DIY ในฉากเพลง","created":"2026-11-05"},
+    {"id":"i2","title":"ศิลปินที่อยากชวนมาคุย","category":"INTERVIEW","description":"รวบรวมคำถามและรายชื่อศิลปินที่น่าสนใจ (DEMO)","created":"2026-11-06"},
+    {"id":"i3","title":"Playlist: เสียงทดลองหลังเที่ยงคืน","category":"PLAYLIST","description":"คัดเพลง electronic และ alternative hip-hop","created":"2026-11-07"}
+  ],
+  "artists": [
+    {"id":"a1","name":"DEMO — Night Static","genre":"Experimental Rap · Cloud Rap","description":"โปรไฟล์ศิลปินสมมติเพื่อสาธิตการใช้งาน ห้ามถือเป็นข้อมูลจริง","instagram":"","spotify":"","youtube":"","contact":"","status":"TO RESEARCH","notes":"ข้อมูล DEMO เท่านั้น"}
+  ],
+  "events": [
+    {"id":"e1","name":"DEMO — Underground Session","date":"2026-11-16","time":"19:00","venue":"Example Venue (DEMO)","location":"Bangkok (DEMO)","organizer":"DEMO Organizer","lineup":"DEMO lineup — not real","ticket":"","poster":"","link":"","deadline":"2026-11-10","coverage":"เตรียมโพสต์ประกาศตัวอย่าง","status":"ANNOUNCEMENT"}
+  ],
+  "weekly": {},
+  "tasks": {}
+}
