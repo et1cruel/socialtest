@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">GENNOISE mark</title>
+  <desc id="desc">A custom underground editorial G monogram with an acid green sound burst.</desc>
+  <rect width="128" height="128" fill="#c6fa45"/>
+  <path d="M77 24c-5-3-11-5-18-5-25 0-42 19-42 45s17 45 42 45c13 0 24-4 32-12V61H61v18h11v10c-4 3-8 4-13 4-14 0-23-12-23-29s9-29 23-29c7 0 13 3 18 8l13-14c-4-3-8-6-13-8z" fill="#171815"/>
+  <path d="M91 16v17M108 25 98 37M116 44l-16 4M115 66l-16-3M105 84 94 73" fill="none" stroke="#ed5c43" stroke-linecap="square" stroke-width="6"/>
+  <circle cx="91" cy="55" r="5" fill="#ed5c43"/>
+</svg>
